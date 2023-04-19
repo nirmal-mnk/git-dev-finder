@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
-}
+:root {
+  --bg-white: #f6f8ff;
+  --cardbg-white: #ffffff;
+  --txt-white: #ffffff;
+  --txt-black: #141d2f;
+  --txt-grey: #4b6a9b;
+  --bg-blue: #0079ff;
+  --boxshadow: rgba(70, 96, 187, 0.2) 0px 7px 29px 0px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  --fs16: clamp(1rem, 16vw * 100 / 1920, 1.6rem);
+  --fs30: clamp(1.875rem, 30vw * 100 / 1920, 3rem);
+  --fs14: clamp(0.875rem, 14vw * 100 / 1920, 1.4rem);
+  --fs26: clamp(1.625rem, 26vw * 100 / 1920, 2.6rem);
+  --fs22: clamp(1.375rem, 22vw * 100 / 1920, 2.2rem);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.layout_main {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg-white);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.layout_sub {
+  width: 60%;
+  height: 100vh;
+  margin: 0 auto;
+  padding-top: 10%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.darktheme {
+  --bg-white: #141d2f;
+  --cardbg-white: #1e2a47;
+  --txt-white: #ffffff;
+  --txt-black: #ffffff;
+  --txt-grey: #ffffff;
+  --bg-blue: #0079ff;
+  --boxshadow: rgba(70, 95, 187, 0) 0px 7px 29px 0px;
 }

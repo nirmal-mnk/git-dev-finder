@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+  margin: 1rem;
+  text-align: center;
+}
+.footer p {
+  color: var(--txt-grey);
+  font-size: var(--fs16);
+}
