@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <div className={styles.headerMain}>
       <div className={styles.headerLeft}>
-        <h1 onClick={() => handleLogoClick()}>DevSquad</h1>
+        <h1 onClick={() => handleLogoClick()}>GitDevFinder</h1>
       </div>
       <div className={styles.headerRight}>
         <div className={styles.themeBtn} onClick={(e) => handleToggleTheme()}>
