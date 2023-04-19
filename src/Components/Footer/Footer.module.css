@@ -7,3 +7,6 @@
   color: var(--txt-grey);
   font-size: var(--fs16);
 }
+.footer p a {
+  color: var(--txt-grey);
+}
